@@ -1,0 +1,65 @@
+.circle1{
+    height: 50px;
+    width: 50px;
+    background-color:blue;
+    border-radius:50%;
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    animation: one 1s ease-in-out 50ms infinite ;
+}
+@keyframes one{
+    0%{top: 300px;}
+    40%{top: 280px;}
+    90%{top: 300px;}
+    100%{top: 300px;}
+}
+
+.circle2{
+    height: 50px;
+    width: 50px;
+    background-color:red;
+    border-radius:50%;
+    position: absolute;
+    left: 675px;
+    top: 300px;
+    animation: two 1s ease-in-out 100ms infinite ;
+}
+@keyframes two{
+    0%{top: 300px;}
+    60%{top: 280px;}
+    90%{top: 300px;}
+    100%{top: 300px;}
+}
+.circle3{
+    height: 50px;
+    width: 50px;
+    background-color:yellow;
+    border-radius: 50%;
+    position: absolute;
+    left: 750px;
+    top: 300px;
+    animation: three 1s ease-in-out 150ms infinite ;
+}
+@keyframes three{
+    0%{top: 300px;}
+    60%{top: 280px;}
+    90%{top: 300px;}
+    100%{top: 300px;}
+}
+.circle4{
+    height: 50px;
+    width: 50px;
+    background-color:green;
+    border-radius: 50%;
+    position: absolute;
+    left: 825px;
+    top: 300px;
+    animation: four 1s ease-in-out 200ms infinite ;
+}
+@keyframes four{
+    0%{top: 300px;}
+    60%{top: 280px;}
+    90%{top: 300px;}
+    100%{top: 300px;}
+}
